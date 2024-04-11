@@ -33,8 +33,8 @@ dependencies:
     specifier: ~17.3.1
     version: 17.3.1(@angular/common@17.3.1)(@angular/core@17.3.1)(@angular/platform-browser@17.3.1)(rxjs@7.8.1)
   '@jsverse/transloco':
-    specifier: ^7.0.0
-    version: 7.0.0(@angular/core@17.3.1)(typescript@5.4.3)
+    specifier: ^7.1.0
+    version: 7.1.0(@angular/core@17.3.1)(typescript@5.4.3)
   '@nx/angular':
     specifier: 18.1.3
     version: 18.1.3(@angular-devkit/build-angular@17.3.2)(@angular-devkit/core@17.3.2)(@angular-devkit/schematics@17.3.2)(@schematics/angular@17.3.2)(@swc-node/register@1.9.0)(@swc/core@1.4.11)(@types/node@20.11.30)(eslint@8.57.0)(nx@18.1.3)(rxjs@7.8.1)(typescript@5.4.3)
@@ -77,8 +77,8 @@ devDependencies:
     specifier: ~17.3.1
     version: 17.3.1
   '@jsverse/transloco-keys-manager':
-    specifier: ^4.0.1
-    version: 4.0.1(@angular/core@17.3.1)(typescript@5.4.3)
+    specifier: ^4.1.0
+    version: 4.1.0(@angular/core@17.3.1)(typescript@5.4.3)
   '@nx/cypress':
     specifier: 18.1.3
     version: 18.1.3(@swc-node/register@1.9.0)(@swc/core@1.4.11)(@types/node@20.11.30)(cypress@13.7.1)(nx@18.1.3)(typescript@5.4.3)
@@ -3660,13 +3660,13 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@jsverse/transloco-keys-manager@4.0.1(@angular/core@17.3.1)(typescript@5.4.3):
-    resolution: {integrity: sha512-2C1ANPNNgPFosWOmpCprOwH9fqulzfDHVe3wDaQAPjsPCW1ynQd50y15JkhQl2i8IddYxa6Wi+pG06S0lK+e9g==}
+  /@jsverse/transloco-keys-manager@4.1.0(@angular/core@17.3.1)(typescript@5.4.3):
+    resolution: {integrity: sha512-srJ9rcTtR4N7+rVCUzEa79/yfSg6WpxF6zQKGDjNC+g5VfUUAq93ElDahpELcgpT41YZrHUReWLGZd/jGt8LjA==}
     engines: {node: '>=18.13.0'}
     hasBin: true
     dependencies:
       '@angular/compiler': 17.2.0(@angular/core@17.3.1)
-      '@ngneat/transloco-utils': 5.0.0(typescript@5.4.3)
+      '@jsverse/transloco-utils': 7.0.0(typescript@5.4.3)
       '@phenomnomnominal/tsquery': 6.1.3(typescript@5.4.3)
       chalk: 5.3.0
       cheerio: 1.0.0-rc.12
@@ -3696,10 +3696,9 @@ packages:
       tslib: 2.6.2
     transitivePeerDependencies:
       - typescript
-    dev: false
 
-  /@jsverse/transloco@7.0.0(@angular/core@17.3.1)(typescript@5.4.3):
-    resolution: {integrity: sha512-MyI5xJEXVP5YWNPxBOmAEyVzdqHneYTKeliv4d3tXNWnhL/bxlPWUoTmUxO/mBQvLClIpuZaw/tG0uiiLh+ciQ==}
+  /@jsverse/transloco@7.1.0(@angular/core@17.3.1)(typescript@5.4.3):
+    resolution: {integrity: sha512-NDX9kq6SdR8CsmkAO8jECL8GsRaZJiURcTe/iP6IrBKQ1JlXFq0xBh3j3Mltbiw10B/8D4g/c7qeAsgsleHqlg==}
     peerDependencies:
       '@angular/core': '>=16.0.0'
     dependencies:
@@ -3724,16 +3723,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
-
-  /@ngneat/transloco-utils@5.0.0(typescript@5.4.3):
-    resolution: {integrity: sha512-e0S+GWyBTmLix9KfYWW/rScYdqQz3z3znNSb+foaA5T3jWs4CPLVo+PV0No7kGjqom8Wy8H3lLvztfhHxYSLyA==}
-    engines: {node: '>=16'}
-    dependencies:
-      cosmiconfig: 8.3.6(typescript@5.4.3)
-      tslib: 2.6.2
-    transitivePeerDependencies:
-      - typescript
-    dev: true
 
   /@ngtools/webpack@17.3.2(@angular/compiler-cli@17.3.1)(typescript@5.4.3)(webpack@5.90.3):
     resolution: {integrity: sha512-E8zejFF4aJ8l2XcF+GgnE/1IqsZepnPT1xzulLB4LXtjVuXLFLoF9xkHQwxs7cJWWZsxd/SlNsCIcn/ezrYBcQ==}

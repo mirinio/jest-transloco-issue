@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { RouterTestingModule } from '@angular/router/testing';
 import { TranslocoTestingModule } from '@jsverse/transloco';
-import { marker } from '@jsverse/transloco-keys-manager/marker';
+import { marker as _ } from '@jsverse/transloco-keys-manager/marker';
 
 
 
@@ -24,7 +24,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      marker('HelloWorld')
+      _('HelloWorld')
     );
   });
 });
